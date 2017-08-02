@@ -105,7 +105,8 @@ df <- rbind.fill(data14, data13, data12, data11, data10, data09,
 
 # Remove unneeded columns
 df<- select(df, -CONUM, -CCDNF, -CENFILE, -GSLO, -GSHI, -MEMBERSCH, -WEIGHT,
-            -CENSUSID, -CSA, -CBSA, -STNAME, -STABBR, -SCHLEV, -AGCHRT)
+            -CENSUSID, -CSA, -CBSA, -STNAME, -STABBR, -SCHLEV, -AGCHRT, -FIPSCO,
+            -CMSA, - WEIGHT)
 
 # Remove the schools without identification
 df <- filter(df, LEAID != "NA")
