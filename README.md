@@ -3,6 +3,14 @@
 The assignment code takes in a latitude/longtiude of a location and adds a city variable and a census block variable. These are used to create more geographical linkages between datasets.
 
 
+Following R Packages are Needed:
+``` {r}
+install.packages(dplyr)
+install.packages(tidyr)
+install.packages(stringr)
+install.packages(data.table)
+```
+
 In the *scripts* folder, attached are scripts of R code that need to be included in some of the code. Here is which code needs which scripts:
 ``` {r}
 # For database_ccd_financial.R
